@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_demo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:src="@drawable/kitkat" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:overScrollMode="ifContentScrolls" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cb_low_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/low_profile_mode" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/screen_options"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <CheckBox
+                android:id="@+id/cb_hide_navigation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hide_navigation" />
+
+            <CheckBox
+                android:id="@+id/cb_full_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/full_screen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/kitkat_options"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <CheckBox
+                android:id="@+id/cb_immersive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/immersive" />
+
+            <CheckBox
+                android:id="@+id/cb_immersive_sticky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/immersive_sticky" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/layout_options"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <CheckBox
+                android:id="@+id/cb_stable_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stable_layout" />
+
+            <CheckBox
+                android:id="@+id/cb_full_screen_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/full_screen_layout" />
+
+            <CheckBox
+                android:id="@+id/cb_hide_navigation_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hide_navigation_layout" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

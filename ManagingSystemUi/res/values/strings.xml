@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="sample_action">Apply these settings!</string>
+    <string name="app_name">Managing UI</string>
+    <string name="low_profile_mode">Low Profile Mode</string>
+    <string name="full_screen">Full Screen</string>
+    <string name="hide_navigation">Hide Navigation</string>
+    <string name="stable_layout">Stable Layout</string>
+    <string name="full_screen_layout">Full Screen Layout</string>
+    <string name="hide_navigation_layout">Hide Navigation Layout</string>
+    <string name="unsupported_msg">The options not supported bu your OS are already disabled.</string>
+    <string name="immersive">Immersive Mode</string>
+    <string name="immersive_sticky">Sticky Immersive Mode</string>
+    <string name="layout_options">Layout Options</string>
+    <string name="screen_options">Screen Options</string>
+    <string name="kitkat_options">Kitkat Immersive Options</string>
+
+</resources>
